@@ -6,6 +6,7 @@ import web from "./web.gif";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import man from "./man.gif"
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -62,5 +63,6 @@ export {
   sql,
   python,
   pytorch,
-  tf
+  tf,
+  man
 };

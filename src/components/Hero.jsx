@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import {tempCanvas} from "./canvas";
+import {man} from "../assets"
 
 const Hero = () => {
   return (
@@ -23,6 +23,9 @@ const Hero = () => {
             I am a developer who loves to build<br className='sm:block hidden' />
             full stack data driven projects using ML and Deep learning.
           </p>
+        </div>
+        <div>
+          <img src = {man}></img>
         </div>
       </div>
 
