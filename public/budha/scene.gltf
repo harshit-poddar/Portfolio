@@ -1,0 +1,162 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 65535,
+      "max": [
+        27.942543029785156,
+        39.66130065917969,
+        83.8984146118164
+      ],
+      "min": [
+        -42.70746612548828,
+        -61.36491012573242,
+        26.07133674621582
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 786420,
+      "componentType": 5126,
+      "count": 34440,
+      "max": [
+        28.059524536132813,
+        1.7234818935394287,
+        84.32732391357422
+      ],
+      "min": [
+        -41.28514099121094,
+        -61.34663391113281,
+        28.2838191986084
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Chandra Devi (https://sketchfab.com/chandra-devi)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/sit-luminous-buddha-b5f84b985c0a4afda36f93dde3c1ce0e",
+      "title": "Sit luminous Buddha"
+    },
+    "generator": "Sketchfab-14.96.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1199700,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1199700,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit",
+    "KHR_materials_emissive_strength"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 1.9961965598371345
+        },
+        "KHR_materials_unlit": {}
+      },
+      "name": "Scene_-_Root",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "material": 0,
+          "mode": 0
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "material": 0,
+          "mode": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        4.440892098500626e-16,
+        0.0,
+        0.0,
+        -4.440892098500626e-16,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "Geode"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
